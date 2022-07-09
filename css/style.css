@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+}
+
+html{
+
+    height: auto;
+    min-height: 100%;
+}
+
+body{
+
+    background-color: black;
+    
+}
+
+.contenedor{
+    background-color: rgba(0, 0, 0, 0.697);
+    list-style: none;
+    margin: 3px auto;
+    display: flex;
+    height: 50px;
+}
+
+.contenedor a img{
+
+    width: 50px ;
+    height: 35px;
+    margin: 5px 180px;
+    padding: 5px;
+}
+
+.contenedor_nike{
+
+    background-color: transparent;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+
+.contenedor_nike:hover{
+
+    background-color: orange;
+    transition: 1s;
+}
+
+.contenedor_adidas{
+
+    background-color: transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.contenedor_adidas:hover{
+
+    background-color: rgb(21, 64, 144);
+    transition: 1s;
+}
+
+.contenedor_puma{
+
+    background-color: transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.contenedor_puma:hover{
+
+    background-color: rgb(255, 0, 0);
+    transition: 1s;
+}
+
+.titulo{
+
+    text-align: center;
+    color: white;
+    margin: 50px 350px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border: 5px solid white;
+    border-radius: 10px 0 50px 10px;
+    
+    
+}
+
+
+.color{
+
+    color: orange;
+}
+
+.mainFondo img{
+
+    margin: 30px 50px;
+    border: 5px solid white;
+    width: 40%;
+    height: 350px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+.mainFondo img:hover{
+
+    border: 5px solid orange;
+    transition: 1s;
+
+    
+}
+
+.titulo_adidas{
+
+    border: 5px solid rgba(0, 0, 255, 0.543);
+    margin: 50px 500px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    transition: 1s;
+}
+.titulo_adidas:hover{
+
+    border: 5px solid blue;
+    transition: 1s;
+}
+
+.contenedorFlex{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.div_img_adidas{
+
+    background-color: white;
+    margin: 10px 20px;
+    border: 3px solid black;
+    transition: 0.75s;
+    border-radius: 10px;
+    padding: 30px;
+    cursor: pointer;
+    border: 2px solid rgb(21, 64, 144) ;
+    box-shadow: -5px 2px 15px rgb(255, 255, 255);
+
+}
+
+.div_img_adidas img{
+
+    height: 150px;
+    width: 200px;
+}
+
+.texto{
+
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 2px 5px 5px gray;
+    
+}
+
+.texto:hover{
+
+    color: rgb(0, 98, 255);
+}
+
+.titulo_nike{
+
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    border: 5px solid rgba(255, 166, 0, 0.533);
+    margin: 50px 500px;
+    transition: 1s;
+}
+
+.titulo_nike:hover{
+
+    border: 5px solid orange;
+    transition: 1s;
+}
+
+.div_img_nike{
+
+    background-color: white;
+    margin: 10px 20px;
+    border: 3px solid black;
+    transition: 0.75s;
+    border-radius: 10px;
+    padding: 30px;
+    cursor: pointer;
+    border: 2px solid orange;
+    box-shadow: -5px 2px 15px rgb(255, 255, 255);
+
+}
+
+.div_img_nike img{
+
+    height: 180px;
+    width: 200px;
+}
+
+.texto_nike{
+
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 2px 5px 5px gray;
+    
+}
+
+.texto_nike:hover{
+
+    color: orange;
+}
+
+.titulo_puma{
+
+    text-align: center;
+    margin: 50px 500px;
+    font-family: sans-serif;
+    color: white;
+    border: 5px solid rgba(255, 0, 0, 0.516) ;
+    transition: 1s;
+
+}
+
+.titulo_puma:hover{
+
+    border: 5px solid red;  
+    transition: 1s;
+
+}
+
+.div_img_puma{
+
+    background-color: white;
+    margin: 10px 20px;
+    border: 3px solid black;
+    transition: 0.75s;
+    border-radius: 10px;
+    padding: 30px;
+    cursor: pointer;
+    border: 2px solid rgb(255, 0, 0);
+    box-shadow: -5px 2px 15px rgb(255, 255, 255);
+
+}
+
+.div_img_puma img{
+
+    height: 180px;
+    width: 200px;
+}
+
+.texto_puma{
+
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 2px 5px 5px gray;
+}
+
+.texto_puma:hover{
+
+    color: red;
+}
+
+
+.piePagina{
+
+    background-color: white;
+    margin-top: 50px ;
+    height: 100px;
+}
+
+.textoPagina{
+
+    text-align: center;
+    font-family: sans-serif;
+    padding: 30px;
+
+}
+
+.boton {
+
+    text-align: center;
+    background-color: yellow;
+    font-family: sans-serif;
+    margin: 50px 550px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 1s;
+    
+ 
+}
+
+.boton:hover{
+
+    box-shadow: 2px 2px 50px orange;
+    transition: 1s;
+
+}
+
+
+
+
+
+
+
+
+
