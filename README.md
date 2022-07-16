@@ -1,3 +1,3 @@
 # TiendaDeRopa
 
- https://mas234.github.io/TiendaDeRopa/
+ https://mas234.github.io/TiendaDeZapas/
